@@ -1,0 +1,41 @@
+@import '~antd/dist/antd.css';
+
+#root,
+#root>section {
+  width: 100%;
+  height: 100%;
+}
+
+/* 基本的页面布局 */
+.ant-layout-header {
+  background-color: #C1CDCD;
+  box-shadow: 0 2px 8px #f0f1f2;
+  padding-top: 8px;
+}
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.main-wrapper>.col {
+  /* flex-grow: 1; */
+  width: 50%;
+}
+.main-wrapper>.home-page {
+  flex-grow: 1;
+}
+
+/* 地图 */
+#map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#map .amap-logo>img{
+  display: none;
+}
+.ant-card-body{
+  height: 110px;
+}
+.ant-pagination.mini{
+  margin-bottom: 0px;
+}
